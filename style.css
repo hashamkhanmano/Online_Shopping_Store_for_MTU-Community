@@ -1,0 +1,22 @@
+/* Reset some default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Set the body to take full height of the viewport */
+body, html {
+    height: 100%;
+    display: flex;
+    justify-content: center; /* Horizontally center */
+    align-items: center; /* Vertically center */
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4; /* Optional, background color */
+}
+
+/* Optional styling for the heading */
+h2 {
+    font-size: 2rem;
+    color: #333; /* Text color */
+}
